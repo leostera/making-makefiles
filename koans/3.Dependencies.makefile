@@ -8,4 +8,4 @@ hello:
 	echo "hello" > hello
 
 clean:
-	rm hello_world
+	rm -f hello world
