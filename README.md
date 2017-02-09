@@ -45,6 +45,14 @@ composability of targets, and handling of files/archives.
 
 # Hands-On
 
+We need to know 3 things:
+
+1. We invoke a target by naming it: `make target-name`
+2. We specify a different makefile with the flag `-f path/to/makefile`
+3. The file extension is just a convention
+
+Without further ado...
+
 
 # The End
 
