@@ -10,12 +10,15 @@ ifndef NAME
 endif
 
 #
+#	Try: Run this makefile without specifying a name.
+#
 #################################################################################
 
 #################################################################################
 #
-# Conditionals can be included inside targets as well
+# Conditionals can be included inside targets as well!
 #
+
 salute:
 ifdef SHOUT
 	echo "HELLO THERE $(NAME)!!!"
