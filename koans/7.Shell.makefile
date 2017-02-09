@@ -8,9 +8,9 @@
 # Let's try defaulting our greeter to use our username:
 #
 
-NAME = $(shell whoami)
+NAME = $(shell echo "")
 
-ifndef NAME
+ifeq (,$(NAME))
   $(error "Please specify a name")
 endif
 

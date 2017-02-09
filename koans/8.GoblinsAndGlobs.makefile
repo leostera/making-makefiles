@@ -21,6 +21,10 @@ GZIP_FILES = $(TEXT_FILES:files/%.txt=files/%.gzip)
 
 all: $(GZIP_FILES)
 
+list:
+	@echo $(TEXT_FILES)
+	@echo $(GZIP_FILES)
+
 #
 # But this would be painful and we would have to add new targets for each new
 # pair of files, so instead let's write a _generic target_ that can deal with

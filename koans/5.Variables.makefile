@@ -19,6 +19,7 @@ NAME = Joey
 #
 # Variables can be utilised through the $(VARIABLE_NAME) notation anywhere, and
 # they will be eagerly replaced across the makefile.
+#
 
 salute:
 	echo "Hello, $(NAME)!"
